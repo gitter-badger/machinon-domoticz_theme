@@ -62,12 +62,12 @@ document.addEventListener('DOMContentLoaded', function () {
 (function() {
 
 	$( document ).ready(function() {
-		if (!isMobile){ 
+		//if (!isMobile){ 
 		observer.observe(targetedNode, {
 			childList: true,
 			subtree: true
 		});
-		}
+		//}
 		requirejs.config({ waitSeconds: 30 });
 		// function adds the theme tab
 		showThemeSettings();
