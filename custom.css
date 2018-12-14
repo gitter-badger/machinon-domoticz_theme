@@ -295,7 +295,7 @@ div#floorplancontent {
 	padding:0 5%  !important;
 	padding-top:85px !important;
 }
-@media (min-width: 992px){
+@media (max-width: 992px){
 div.bannercontent{
 	padding-top:0 !important;
   }
