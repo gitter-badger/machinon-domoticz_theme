@@ -1484,12 +1484,6 @@ input#AcceptNewHardware:checked ~ button {
   }
 
 }
-@media (max-width: 767px) {
-  body {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-  }
-}
 @media (min-width: 768px) {
   .navbar .brand {
     left: auto;
