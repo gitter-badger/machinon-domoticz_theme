@@ -322,7 +322,7 @@ div.bannercontent .row.divider{
 }
 /*need to change this for all media screen...*/
 
-@media (max-width: 341px){
+@media (max-width: 480px){
 div.bannercontent .row.divider{
     grid-template-columns:repeat(1,1fr);
     grid-auto-rows: 110px;
