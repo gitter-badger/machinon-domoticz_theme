@@ -293,10 +293,9 @@ div#floorplancontent {
 }
 #holder{
 	padding:0 5%  !important;
-	padding-top:45px !important;
 }
 @media (min-width: 992px){
-div.bannercontent .row.divider{
+div.bannercontent{
 	padding-top:85px !important;
   }
 }
