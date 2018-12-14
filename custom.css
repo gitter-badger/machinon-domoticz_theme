@@ -293,10 +293,11 @@ div#floorplancontent {
 }
 #holder{
 	padding:0 5%  !important;
+	padding-top:85px !important;
 }
 @media (min-width: 992px){
 div.bannercontent{
-	padding-top:85px !important;
+	padding-top:0 !important;
   }
 }
 
@@ -316,8 +317,6 @@ div.bannercontent .row.divider{
   
     display: -webkit-grid;
     display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-auto-rows: 10vmax;
   
     gap:15px;
     justify-items: stretch;
