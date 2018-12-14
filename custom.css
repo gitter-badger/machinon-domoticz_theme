@@ -914,7 +914,6 @@ button.menu-toggle {
 
 /* =Header */
 .bannercontent {
-  padding: 90px 5em 0 5em !important;
 }
 
 .sub-tabs .sub-tabs-apply,
@@ -1456,9 +1455,6 @@ input#AcceptNewHardware:checked ~ button {
     position: static !important;
   }
 
-  .bannercontent {
-    padding-top: 0;
-  }
 }
 @media (max-width: 767px) {
   body {
@@ -1805,10 +1801,7 @@ padding-bottom:1px;
 	}
 
   /*fix flex bug. need to be improve*/
-  .bannercontent {
-    padding:0 !important;
-    margin:0 !important;
-  }
+
   .container-fluid{padding: 0 !important;margin: 0 !important;}
 }
 
