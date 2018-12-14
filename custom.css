@@ -21,6 +21,10 @@ border-color: var(--main-item-bg-color)!important;
 #copyright p:after {
   content: "  | 'machinon' theme by EdddieN";
 }
+body{
+	padding:0!important;
+	margin:0!important;
+}
 /* Navbar move abit to left */
 .navbar .nav {
 	  float: left;
