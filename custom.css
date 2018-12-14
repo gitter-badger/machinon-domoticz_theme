@@ -322,7 +322,7 @@ div.bannercontent .row.divider{
 @media (min-width: 992px){
 div.bannercontent .row.divider{
     grid-template-columns:repeat(3,1fr);
-    grid-auto-rows: 10vmax;
+    grid-auto-rows: 140px;
   }
 	
 @media (min-width: 1200px){
