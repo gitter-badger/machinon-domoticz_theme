@@ -294,7 +294,7 @@ div#floorplancontent {
 #holder{
 	padding:0 5%  !important;
 }
-@media (min-width: 992px){
+@media (min-width: 993px){
 #holder{
 	padding-top:85px !important;
   }
