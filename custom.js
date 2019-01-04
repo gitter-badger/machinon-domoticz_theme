@@ -27,7 +27,7 @@ $.ajax({url: 'acttheme/js/time_ago.js', async: false, dataType: 'script'});
 $.ajax({url: 'acttheme/lang/machinon.' + lang + '.js', async: false, dataType: 'script'});
 checkauth();
 //need more simplycity
-if (!isMobile){ 
+
 var targetedNode = document;
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 var observer = new MutationObserver(function(mutations, observer) {
@@ -54,7 +54,7 @@ var observer = new MutationObserver(function(mutations, observer) {
 });
 
 window.onhashchange = locationHashChanged;
-}
+
 document.addEventListener('DOMContentLoaded', function () {
 
 });
@@ -62,12 +62,12 @@ document.addEventListener('DOMContentLoaded', function () {
 (function() {
 
 	$( document ).ready(function() {
-		if (!isMobile){ 
+
 		observer.observe(targetedNode, {
 			childList: true,
 			subtree: true
 		});
-		}
+
 		requirejs.config({ waitSeconds: 30 });
 		// function adds the theme tab
 		showThemeSettings();
