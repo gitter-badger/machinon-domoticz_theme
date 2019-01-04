@@ -406,7 +406,7 @@ body table#itemtable tbody tr {
 
 @media (min-width: 980px) {
   .item #bigtext {
-    font-size: 23px;
+    font-size: 1.2em;
   }
 }
 
